@@ -1,3 +1,5 @@
+package task14;
+
 class Product {
 
     String name;
