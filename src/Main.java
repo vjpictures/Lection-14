@@ -10,7 +10,7 @@ public class Main {
         Category category2 = new Category("Женская одежда", new Product[]{product2});
         Category category3 = new Category("Фрукты", new Product[]{product3});
 
-        Basket basket1 = new Basket(new Product[]{product1});
+        Basket basket1= new Basket(new Product[]{product1});
 
         java.time.LocalDate currentDate = java.time.LocalDate.now();
         System.out.println("Дата:   " + currentDate);
